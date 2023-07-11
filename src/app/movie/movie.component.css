@@ -1,0 +1,23 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: rgba(245, 244, 244, 0.4);
+    backdrop-filter: blur(5px);
+    color: #fff;
+}
+i{
+font-size: 1.5rem;
+margin:0 0.4rem;
+}
+.dislikes{
+    margin-left:2rem ;
+}
+.like{
+    display: flex;
+}
+img{
+    height: 100%;
+}

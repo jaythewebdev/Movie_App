@@ -1,0 +1,21 @@
+<div class="center">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="assets/Images/card-1.jpeg" class="card-img" alt="Movie Card Image">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{movie.MovieId}} . {{movie.Name}}</h5>
+              <p class="card-text">{{movie.Duration}}</p>
+              <p class="card-text">{{movie.Description}}</p>
+              <div class="like">
+                <p class="card-text"><small class="likes">Likes<i class="bi bi-hand-thumbs-up-fill" (click)="addLikes()"></i></small>{{movie.Likes}}  </p>
+                <p class="card-text"><small class="dislikes">DisLikes<i class="bi bi-hand-thumbs-down-fill" (click)="addDisLikes()"></i></small>{{movie.DisLikes}}</p>
+              </div>
+              </div>  
+          </div>
+        </div>
+    </div>
+</div>
+
